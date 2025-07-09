@@ -41,7 +41,7 @@ just hang out ☕.
 
 Punctuation restoration relies on the premise that [Whisper](https://huggingface.co/models?other=whisper) can understand universal speech. The model is forced to predict the passed words, 
 but is allowed to capitalized letters, remove or add blank spaces as well as add punctuation. 
-Punctuation is simply defined as the offial Python [string.Punctuation](https://docs.python.org/3/library/string.html#string.punctuation) characters.
+Punctuation is simply defined as the official Python [string.Punctuation](https://docs.python.org/3/library/string.html#string.punctuation) characters.
 
 **Note**: For now this package has only been tested with:
 - [openai/whisper-tiny.en](https://huggingface.co/openai/whisper-tiny.en)
